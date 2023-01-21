@@ -22,7 +22,7 @@ PORT      STATE    SERVICE         VERSION
 |     Connection: close
 ```
 so there are three ports open which are 22 for ssh and 9091 for xmltec-xmlmail service which will be usefull in the future and xmltec-xmlmail80 for http and its redircting me to soccer.htb so I added the ip in my **/etc/hosts** file to access the website
-![[img/Screenshot from 2023-01-19 20-29-11.png]]
+![image1](img/1.png)
 
 and I was to able to access the website. so I ran a gobsuter scan to find hidden directories  in the website
 ```
@@ -45,15 +45,15 @@ by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
 /tiny                 (Status: 301) [Size: 178] [--> http://soccer.htb/tiny/]
 ```
 gobuster found a directory called tiny so I opened a login page appeared to me
-![[img/Screenshot from 2023-01-19 20-41-47.png]]
+![image1](img/2.png)
 After a little research I found that tiny is a file manger so I viewed the source code to find if there is a version number and I found it and it was "**2.4.3**"
-![[Screenshot from 2023-01-19 20-45-28.png]]
+![image1](img/3.png)
 so I searched online for the default credentials of this version and I found "**admin:admin@123**" so I tried it and worked and I got logged in as admin user
 # Initial Foothold
 I was prompted to a file managment system with the  ability to upload file
-![[Screenshot from 2023-01-19 21-25-17.png]]
+![image1](img/4.png)
 so I tried to upload a [php reverse shell](https://github.com/pentestmonkey/php-reverse-shell/blob/master/php-reverse-shell.php) but it was only uploaded succefully in the **/var/www/html/tiny/uploads** directory and I obtained a reverse shell
-![[img/Screenshot from 2023-01-20 14-38-32.png]]
+![image1](img/5.png)]
 I tried to cat the user.txt file in the /home/player directory to obtain the flag but I didn't have the permission to read the file
 ```
 www-data@soccer:/home/player$ cat user.txt
@@ -82,11 +82,11 @@ server {
 }
 ```
 so I added the subdomain to my **/etc/hosts** file and I opened it in my browser
-![[Screenshot from 2023-01-20 15-08-20.png]]
+![image1](img/6.png)
 And I found that it has a signup functionality and a functionality to book tickets to matches so I created an account and went to the tickets booking page
-![[Screenshot from 2023-01-20 15-26-16.png]]
+![image1](img/7.png)
 and as you can see I tried sql injection and it appeared that this form is vurnable to blind sql injection so I fired up burp suite to analyze the application and to know what technology it is using.
-![[Screenshot from 2023-01-20 15-33-26.png]]
+![image1](img/10.png)
 So I discovered that it run websocket and unfortunatly You can't use sqlmap map with websockets directly so searches online and found [this article](https://rayhan0x01.github.io/ctf/2021/04/02/blind-sqli-over-websocket-automation.html) that explains how to use sqlmap with websockets.
 so I used the script in the article and modified it to be compatable with our machine and here is the modified script
 ```
@@ -161,7 +161,7 @@ and I ran sqlmap and the following credentials appeared
 so I logged in via ssh to the machine as player user and I was able to read the user flag
 # Privilage Escalation
 so I uploaded [linpeas.sh](https://github.com/carlospolop/PEASS-ng/releases/latest/download/linpeas.sh) script and ran it on the machine
-![[Screenshot from 2023-01-21 18-30-12.png]]
+![image1](img/11.png)
 so I ran the /usr/bin/bash script with the following command
 ```
 bash-5.0$ /usr/bin/bash -p
