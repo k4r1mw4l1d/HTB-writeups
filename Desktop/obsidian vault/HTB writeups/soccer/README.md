@@ -1,3 +1,6 @@
+# Intro
+This is my writeup the **soccer** machine from HTB.
+It is an easy rated machine with a lot of fun this to learn
 # Initial scanning
 First I ran an nmap scan to check for open ports and available services on this machine
 ```
