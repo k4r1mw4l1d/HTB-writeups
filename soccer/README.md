@@ -167,7 +167,7 @@ so I ran the /usr/bin/bash script with the following command
 bash-5.0$ /usr/bin/bash -p
 ```
 so that's how I was able to be the root user
-![[Screenshot from 2023-01-21 18-32-15.png]]
+![image1](img/12.png)
 # conclusion
 In the end of this writeup I would like to share my thoughts about this machine.
 I think this machine is a good one and if you solve it you will learn multiple things like automating websocket sql injection and I think that the creator of this machine should be respected.
