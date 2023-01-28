@@ -8,7 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "658e7ffe2e4ccb39",
+            "id": "a8fe6e97fa7220e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ambassador/README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fa3e837b374adb33",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "soccer/README.md",
+                "file": "ambassador/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "soccer/README.md",
+                "file": "ambassador/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "soccer/README.md"
+                "file": "ambassador/README.md"
               }
             }
           }
@@ -146,11 +158,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "658e7ffe2e4ccb39",
+  "active": "a8fe6e97fa7220e3",
   "lastOpenFiles": [
-    "img/Screenshot from 2023-01-19 20-29-11.png.md",
     "soccer/README.md",
-    "img2.md",
-    "README.md"
+    "ambassador/README.md",
+    "ambassador/img/1.png",
+    "soccer/1.png",
+    "soccer/3.png",
+    "README.md",
+    "soccer/7.png",
+    "soccer/6.png",
+    "soccer/5.png",
+    "soccer/4.png"
   ]
 }
