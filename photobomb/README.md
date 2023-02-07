@@ -50,9 +50,9 @@ karim@alpacino:~/Desktop/htb/photobomb$ nc -lnvp 9999
 Listening on 0.0.0.0 9999
 ```
 and I injected the python reverse shell in the filetype parameter
-![image](7.png)
+![image](img/7.png)
 and I got a reverse shell with **wizard** user 
-![image](8.png)
+![image](img/8.png)
 So I went to my home directory and found user.txt file and I was able to read it.
 # Privilage Escalation
 I tried to run sudo -l to find the command that I am able to run using sudo without using password
