@@ -28,7 +28,7 @@ PORT   STATE SERVICE VERSION
 |_http-server-header: nginx/1.18.0
 ```
 After I added the domain to my hosts file I opened the website and It showed me a website and was mentioned that it is powered by Wordpress so I scanned the website with wpscan
-![image](MetaTwo/img/1.png)
+![image](/MetaTwo/img/1.png)
 The wpscan tool Identified that the website is using wordpress 5.6.2 which is vurlnable but we will use that later not now.
 ```bash
 ┌──(kali㉿kali)-[~/HTB]
@@ -99,7 +99,7 @@ by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
 /c                    (Status: 301) [Size: 0] [--> http://metapress.htb/cancel-appointment/]
 ```
 the only directory that I could come up with something from is the events directory and it was the version of the software used in handling the events which is `booking press 1.0.10` so I searched for an online exploit and I found this [github repository](https://github.com/destr4ct/CVE-2022-0739) which contains an automated script which exploit this  program and it basically exploit the program by sql injection in "wpnonce" paramter
-![image](MetaTwo/img/2.png)
+![image](/MetaTwo/img/2.png)
 ```bash
 ┌──(kali㉿kali)-[~/HTB/CVE-2022-0739]
 └─$ python3 booking-press-expl.py -u http://metapress.htb/ -n 361e6b22d4
