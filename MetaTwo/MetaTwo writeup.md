@@ -28,7 +28,7 @@ PORT   STATE SERVICE VERSION
 |_http-server-header: nginx/1.18.0
 ```
 After I added the domain to my hosts file I opened the website and It showed me a website and was mentioned that it is powered by Wordpress so I scanned the website with wpscan
-![image](MetaTwo/img/1.png)
+![image](/MetaTwo/img/1.png)
 The wpscan tool Identified that the website is using wordpress 5.6.2 which is vurlnable but we will use that later not now.
 ```bash
 ┌──(kali㉿kali)-[~/HTB]
