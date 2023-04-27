@@ -22,7 +22,7 @@ PORT      STATE    SERVICE         VERSION
 |     Connection: close
 ```
 so there are three ports open which are 22 for ssh and 9091 for xmltec-xmlmail service which will be usefull in the future and xmltec-xmlmail80 for http and its redircting me to soccer.htb so I added the ip in my **/etc/hosts** file to access the website
-![image1](img/1.png)
+![image1](soccer/img/1.png)
 
 and I was to able to access the website. so I ran a gobsuter scan to find hidden directories  in the website
 ```
@@ -45,7 +45,7 @@ by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
 /tiny                 (Status: 301) [Size: 178] [--> http://soccer.htb/tiny/]
 ```
 gobuster found a directory called tiny so I opened a login page appeared to me
-![image1](img/2.png)
+![image1](soccer/img/2.png)
 After a little research I found that tiny is a file manger so I viewed the source code to find if there is a version number and I found it and it was "**2.4.3**"
 ![image1](img/3.png)
 so I searched online for the default credentials of this version and I found "**admin:admin@123**" so I tried it and worked and I got logged in as admin user

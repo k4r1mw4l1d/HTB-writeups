@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "photobomb/README.md",
+                "file": "MetaTwo/MetaTwo writeup.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "photobomb/README.md",
+                "file": "MetaTwo/MetaTwo writeup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "photobomb/README.md",
+                "file": "MetaTwo/MetaTwo writeup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "photobomb/README.md"
+                "file": "MetaTwo/MetaTwo writeup.md"
               }
             }
           }
@@ -147,14 +147,20 @@
       "obsidian-wordnet-plugin:WordNet Dictionary": false
     }
   },
-  "active": "5b92aac145b8a56a",
+  "active": "a8fe6e97fa7220e3",
   "lastOpenFiles": [
-    "ambassador/README.md",
     "soccer/README.md",
+    "MetaTwo/MetaTwo writeup.md",
+    "MetaTwo/img/2.png",
+    "MetaTwo/img/1.png",
+    "README.md",
+    "MetaTwo/img",
+    "MetaTwo",
+    "photobomb/README.md",
+    "ambassador/README.md",
     "ambassador/img/1.png",
     "soccer/1.png",
     "soccer/3.png",
-    "README.md",
     "soccer/7.png",
     "soccer/6.png",
     "soccer/5.png",

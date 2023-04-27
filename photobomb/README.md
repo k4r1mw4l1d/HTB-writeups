@@ -17,9 +17,9 @@ PORT      STATE    SERVICE       VERSION
 |_http-server-header: nginx/1.18.0 (Ubuntu)
 ```
 I found 2 ports running which are **22** wich is running **SSH** and port **80** which is running http and its redirecting me to http://photobomb.htb/ so added photobomb.htb to my **/etc/hosts/** file and visited the website and I found a static page with a link to another website
-![image](img/1.png)
+![image](photobomb/img/1.png)
 there was a link redirects me to printer directory but it requires a username and a password 
-![image](img/2.png)
+![image](photobomb/img/2.png)
 and if I type something like admin:admin I get a **401 # Authorization Required** error so returned back and viewed the source code and found some credentials photobomb.js file
 ![image](img/3.png)
 ![image](img/4.png)

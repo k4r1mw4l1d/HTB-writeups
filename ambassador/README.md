@@ -34,9 +34,9 @@ PORT     STATE SERVICE VERSION
 |     href="/login">Found</a>.
 ```
 so there are three ports open which are 22 for ssh and port 3000 which is unknown service and 80 so I added the ip in my **/etc/hosts** file to access the website
-![image1](img/1.png)
+![image1](ambassador/img/1.png)
 I didn't find anything so I tried using port 3000 and it prompted me to a login page with grafana as the title
-![image](img/2.png)
+![image](ambassador/img/2.png)
 You can see that its version number is **8.2.0** so I searched for known exploits and I found [this exploit](https://www.exploit-db.com/exploits/50581) so I ran it and was able to read /etc/passwd file so I entered the default path for grafana datbase file which is **/var/lib/grafana/grafana.db** and I was able to save it and used mysql browser to open the file and found credentials for mysql server which is running on the machine
 ![image](img/3.png)
 so I used it to login to mysql server on the machine
