@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MetaTwo/MetaTwo writeup.md",
+                "file": "Interface/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -64,6 +64,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "94ccfa3d0844ebf2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -85,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MetaTwo/MetaTwo writeup.md",
+                "file": "Interface/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MetaTwo/MetaTwo writeup.md",
+                "file": "Interface/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MetaTwo/MetaTwo writeup.md"
+                "file": "Interface/README.md"
               }
             }
           }
@@ -149,6 +157,15 @@
   },
   "active": "a8fe6e97fa7220e3",
   "lastOpenFiles": [
+    "Interface/img/3.png",
+    "Interface/img/Screenshot (5).png",
+    "Interface/img/2.png",
+    "Interface/img/Screenshot (4).png",
+    "Interface/img/1.png",
+    "Interface/img/Screenshot (3).png",
+    "Interface/img",
+    "Interface/README.md",
+    "Interface",
     "soccer/README.md",
     "MetaTwo/MetaTwo writeup.md",
     "MetaTwo/img/2.png",
@@ -160,10 +177,6 @@
     "ambassador/README.md",
     "ambassador/img/1.png",
     "soccer/1.png",
-    "soccer/3.png",
-    "soccer/7.png",
-    "soccer/6.png",
-    "soccer/5.png",
-    "soccer/4.png"
+    "soccer/3.png"
   ]
 }
