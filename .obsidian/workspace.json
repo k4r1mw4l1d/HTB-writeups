@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interface/README.md",
+                "file": "Bagel/README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "122fee4e7f504720",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MetaTwo/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Interface/README.md",
+                "file": "Bagel/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Interface/README.md",
+                "file": "Bagel/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Interface/README.md"
+                "file": "Bagel/README.md"
               }
             }
           }
@@ -157,6 +169,15 @@
   },
   "active": "a8fe6e97fa7220e3",
   "lastOpenFiles": [
+    "Bagel/img/3.png",
+    "Bagel/img/3.png.crdownload",
+    "Bagel/img/2.png",
+    "MetaTwo/README.md",
+    "Bagel/README.md",
+    "Bagel/img/1.png",
+    "Bagel/img",
+    "Interface/README.md",
+    "Bagel",
     "Interface/img/3.png",
     "Interface/img/Screenshot (5).png",
     "Interface/img/2.png",
@@ -164,9 +185,8 @@
     "Interface/img/1.png",
     "Interface/img/Screenshot (3).png",
     "Interface/img",
-    "Interface/README.md",
     "Interface",
-    "soccer/README.md",
+    "Soccer/README.md",
     "MetaTwo/MetaTwo writeup.md",
     "MetaTwo/img/2.png",
     "MetaTwo/img/1.png",
@@ -174,9 +194,6 @@
     "MetaTwo/img",
     "MetaTwo",
     "photobomb/README.md",
-    "ambassador/README.md",
-    "ambassador/img/1.png",
-    "soccer/1.png",
-    "soccer/3.png"
+    "ambassador/README.md"
   ]
 }

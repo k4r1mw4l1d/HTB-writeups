@@ -21,12 +21,12 @@ I found 2 ports running which are **22** wich is running **SSH** and port **80**
 there was a link redirects me to printer directory but it requires a username and a password 
 ![image](photobomb/img/2.png)
 and if I type something like admin:admin I get a **401 # Authorization Required** error so returned back and viewed the source code and found some credentials photobomb.js file
-![image](img/3.png)
-![image](img/4.png)
+![image](photobomb/img/3.png)
+![image](photobomb/img/4.png)
 The credentials are ***pH0t0:b0Mb!*** and if you just visit the link you will be able to access the printer dircetory which is basically a photo gallery
-![image](img/5.png)
+![image](photobomb/img/5.png)
 There is a feature for downloading the photos from the website so I tried to download an image and I captured the request using burp suite
-![image](img/6.png)
+![image](photobomb/img/6.png)
 # Initial access
 Firstly I fired an http server using python
 ```
@@ -50,9 +50,9 @@ karim@alpacino:~/Desktop/htb/photobomb$ nc -lnvp 9999
 Listening on 0.0.0.0 9999
 ```
 and I injected the python reverse shell in the filetype parameter
-![image](img/7.png)
+![image](photobomb/img/7.png)
 and I got a reverse shell with **wizard** user 
-![image](img/8.png)
+![image](photobomb/img/8.png)
 So I went to my home directory and found user.txt file and I was able to read it.
 # Privilage Escalation
 I tried to run sudo -l to find the command that I am able to run using sudo without using password
