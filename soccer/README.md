@@ -22,7 +22,7 @@ PORT      STATE    SERVICE         VERSION
 |     Connection: close
 ```
 so there are three ports open which are 22 for ssh and 9091 for xmltec-xmlmail service which will be usefull in the future and xmltec-xmlmail80 for http and its redircting me to soccer.htb so I added the ip in my **/etc/hosts** file to access the website
-![image1](/img/1.png)
+![image1](img/1.png)
 
 and I was to able to access the website. so I ran a gobsuter scan to find hidden directories  in the website
 ```
