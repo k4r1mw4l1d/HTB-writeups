@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bagel/README.md",
+                "file": "soccer/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bagel/README.md",
+                "file": "soccer/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bagel/README.md",
+                "file": "soccer/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bagel/README.md"
+                "file": "soccer/README.md"
               }
             }
           }
@@ -167,13 +167,13 @@
       "obsidian-wordnet-plugin:WordNet Dictionary": false
     }
   },
-  "active": "a8fe6e97fa7220e3",
+  "active": "5b92aac145b8a56a",
   "lastOpenFiles": [
+    "Bagel/README.md",
     "Bagel/img/3.png",
     "Bagel/img/3.png.crdownload",
     "Bagel/img/2.png",
     "MetaTwo/README.md",
-    "Bagel/README.md",
     "Bagel/img/1.png",
     "Bagel/img",
     "Interface/README.md",
@@ -186,10 +186,9 @@
     "Interface/img/Screenshot (3).png",
     "Interface/img",
     "Interface",
-    "Soccer/README.md",
+    "soccer/README.md",
     "MetaTwo/MetaTwo writeup.md",
     "MetaTwo/img/2.png",
-    "MetaTwo/img/1.png",
     "README.md",
     "MetaTwo/img",
     "MetaTwo",
