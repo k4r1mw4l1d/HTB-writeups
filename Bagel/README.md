@@ -92,9 +92,9 @@ PORT     STATE SERVICE  VERSION
 |     <p>You should be redirected automatically to the target URL: <a href="http://bagel.htb:8000/?page=index.html">http://bagel.htb:8000/?page=index.html</a>.
 ```
 and we open the website on port 8000 because it won't work on other ports and a website appears
-![image](Bagel/img/1.png)
+![image](img/1.png)
 and we notice that there is a page parameter in the URL and it name of a file so we try LFI and it worked and we know from the /etc/passwd file that there are 2 users who are phil and devloper
-![image](Bagel/img/2.png)
+![image](img/2.png)
 We tried trying to get interesting files without success, like the _id_rsa_ or some log file. We tried fuzzing _active_ system processes using a small one liner.
 ```bash
 ┌──(kali㉿kali)-[~/HTB/bagel]
